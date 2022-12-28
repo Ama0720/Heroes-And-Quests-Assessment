@@ -1,0 +1,2 @@
+12-27-2022
+Went through the files already existing and explored what was provided. Learning how to use postman.
