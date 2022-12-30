@@ -4,13 +4,14 @@ export class Quest {
     /**
      * Creates a new quest object
      * 
+     * @param {string} heroId
      * @param {*} args A object containing quest properties
      */
-    constructor(args) {
+    constructor(heroId, args) {
         this.id = uuid();
         this.name = args.name || 'Stand';
         this.description = args.description || 'The Hero stands still and does nothing';
-        this.heroId = req.param.id || 'No Hero';
+        this.heroId = heroId || 'No Hero';
     }
 
     /**

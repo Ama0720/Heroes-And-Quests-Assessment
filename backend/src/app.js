@@ -2,7 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import { heroesRouter } from './modules/hero-module/router.js';
-import { questsRouter } from './modules/quest-module/qrouter.js';
+import { questsRouter } from './modules/quest-module/router.js';
 
 const app = express();
 

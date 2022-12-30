@@ -26,6 +26,16 @@ export class QuestsDB {
     }
 
     /**
+     * Gets a quest with a specific id
+     * 
+     * @param {string} id 
+     * @returns {Quest} A quest with the specified id
+     */
+    getQuest(id) {
+        return this.quests.find(quest => quest.id === id);
+    }
+
+    /**
      * Gets all quests for a specific hero
      * 
      * @param {string} heroId 

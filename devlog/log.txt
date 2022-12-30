@@ -1,2 +1,34 @@
-12-27-2022
-Went through the files already existing and explored what was provided. Learning how to use postman.
+12-27-2022 02:20PM
+Went through the files already existing and explored what was provided.
+Learning how to use Postman from YouTube videos and Postman documentations.
+
+
+12-27-2022 04:28PM
+Completed YouTube Postman tutorial for GET and POST. 
+Started working on Backend Task 1.
+Stopped for the day at 06:10PM.
+
+12-28-2022
+03:09PM
+Picked up coding
+Completed Backend Task 1 and Task 2. Testing code to see if it works.
+Code not working, went back to YouTube and Google for troubleshooting.
+Code still not working. Stopped at 10:38PM
+
+12-29-2022
+08:56PM
+Picked up coding
+Started working on Backend Task 3 and Task 4. Will continue troubleshooting later.
+
+09:46PM
+Completed Backend Task 3 and Task 4.
+Starting troubleshooting.
+
+10:56PM
+Completed troubleshooting for Backend Task 1 and 2.
+Started troubleshooting Task 3 and 4.
+
+11:43PM
+Unable to troubleshoot Task 3 and 4.
+Commiting recent changes.
+Will continue to troubleshoot.
