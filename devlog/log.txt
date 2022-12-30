@@ -32,3 +32,9 @@ Started troubleshooting Task 3 and 4.
 Unable to troubleshoot Task 3 and 4.
 Commiting recent changes.
 Will continue to troubleshoot.
+
+12-30-2022
+12:24AM
+Completed troubleshooting.
+Backend Tasks 1 to 4 now working.
+Stopping here for now, will attemp to create test script next.

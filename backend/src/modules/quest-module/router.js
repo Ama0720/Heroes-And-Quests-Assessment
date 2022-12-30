@@ -51,6 +51,7 @@ export function questsRouter() {
     router.patch('/heroes/:heroId/quests/:questId', (req, res) => {
         const heroId = req.params.heroId;
         const questId = req.params.questId;
+
         const quest = QuestsDB.getInstance().getQuest(questId);
         const hero = HeroesDB.getInstance().getHero(heroId);
 
@@ -70,7 +71,7 @@ export function questsRouter() {
 
 
     // TODO: Task 4: Deleting a Quest
-    router.patch('/heroes/:heroId/quests/:questId', (req, res) => {
+    router.delete('/heroes/:heroId/quests/:questId', (req, res) => {
         const heroId = req.params.heroId;
         const questId = req.params.questId;
         
@@ -78,12 +79,9 @@ export function questsRouter() {
         const hero = HeroesDB.getInstance().getHero(heroId);
 
         // Return 404 if hero object or quest object is not found
-        if (!hero) {
-            // res.sendStatus(404);
-            res.send("Hero not Found");
-        }else if (!quest){
-            res.send("Quest not found");
-        // Return 400 if routes heroId doest not match quest's heroId in database
+        if (!hero || !quest) {
+            res.sendStatus(404);
+        // Return 400 if routes heroId does not match quest's heroId in database
         }else if (heroId !== quest.heroId){
             res.sendStatus(400);
         // Return 204 if quest was deleted
